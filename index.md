@@ -25,7 +25,7 @@ h2 {font-size: 12px;}
             <li><a href="https://github.com/AchocolatechipPancake/PS1-Dropper">Executable - Drop & Exec Elevated PS1</a><p>    - Write PS1 file to disk, and execute via elevated token. Scores considerably low on VT checks. Not difficult to add disable AV function, if you're smart (dont copy/paste) it also slides by AV checks.</p></li>
             
 
-            <li><a href="https://github.com/AchocolatechipPancake">Repo List</a></li>
+            <li><a href="https://github.com/kyle41111">Repo List</a></li>
             
             
           </ul>
