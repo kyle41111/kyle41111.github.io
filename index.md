@@ -22,7 +22,7 @@ h2 {font-size: 12px;}
           <ul>
             <li><a href="/notebook/index.html">Notes</a><p>    - Archived Notes, it's years of content that I no longer know how to organize. Sorry.  ~  Contains malicious script</p></li>
             <li><a href="https://github.com/kyle41111/RedTeamHelp">My Red Team ToolKit</a><p>    - Tools I use for Threat Emulation. </p></li>
-            <li><a href="https://github.com/AchocolatechipPancake/PS1-Dropper">Executable - Drop & Exec Elevated PS1</a><p>    - Write PS1 file to disk, and execute via elevated token. Scores considerably low on VT checks. Not difficult to add disable AV function, if you're smart (dont copy/paste) it also slides by AV checks.</p></li>
+            <li><a href="https://github.com/kyle41111/WazuhRedTeamLab">EDR/SIEM for fellow stingy Red Teamers</a><p>    - Wazuh Configurations.</p></li>
             
 
             <li><a href="https://github.com/kyle41111">Repo List</a></li>
