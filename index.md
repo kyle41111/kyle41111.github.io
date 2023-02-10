@@ -21,8 +21,8 @@ h2 {font-size: 12px;}
         <div class="header-right">
           <ul>
             <li><a href="/notebook/index.html">Notes</a><p>    - Archived Notes, it's years of content that I no longer know how to organize. Sorry.  ~  Contains malicious script</p></li>
-            <li><a href="https://github.com/kyle41111/RedTeamHelp">My Red Team ToolKit</a><p>    - Tools I use for Threat Emulation. </p></li>
-            <li><a href="https://github.com/kyle41111/WazuhRedTeamLab">EDR/SIEM for fellow stingy Red Teamers</a><p>    - Wazuh Configurations.</p></li>
+            <li><a href="">My Red Team ToolKit</a><p>    - Tools I use for Threat Emulation. </p></li>
+            <li><a href="https://kyle41111.gitbook.io/untitled/">EDR/SIEM for fellow stingy Red Teamers with links to my github</a><p>    - Wazuh Configurations.</p></li>
             
 
             <li><a href="https://github.com/kyle41111">Repo List</a></li>
