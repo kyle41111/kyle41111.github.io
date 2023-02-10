@@ -1,99 +1,201 @@
 <!DOCTYPE html>
-<html lang="en-US">
-  <head>
-    <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="/assets/css/style.css?v=5d54211696d70e50961e33dfaf57f66d666907a5">
-    <!-- start custom head snippets, customize with your own _includes/head-custom.html file -->
-
-<!-- Setup theme-color -->
-<!-- start theme color meta headers -->
-<meta name="theme-color" content="#151515">
-<meta name="msapplication-navbutton-color" content="#151515">
-<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-<!-- end theme color meta headers -->
-
-
-<!-- Setup Google Analytics -->
-
-
-
-<!-- You can set your favicon here -->
-<!-- link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" -->
-
-<!-- end custom head snippets -->
-
-
-<!-- Begin Jekyll SEO tag v2.8.0 -->
-<title>Archives | No Ghost Just a Shell</title>
-<meta name="generator" content="Jekyll v3.9.3" />
-<meta property="og:title" content="Archives" />
-<meta property="og:locale" content="en_US" />
-<meta name="description" content="No Ghost Just a Shell" />
-<meta property="og:description" content="No Ghost Just a Shell" />
-<link rel="canonical" href="https://noghostonlyshell.com/" />
-<meta property="og:url" content="https://noghostonlyshell.com/" />
-<meta property="og:site_name" content="Archives" />
-<meta property="og:type" content="website" />
-<meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="Archives" />
-<script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebSite","description":"No Ghost Just a Shell","headline":"Archives","name":"Archives","url":"https://noghostonlyshell.com/"}</script>
-<!-- End Jekyll SEO tag -->
-
-  </head>
-
-  <body>
-
-    <header>
-      <div class="container">
-        <a id="a-title" href="/">
-          <h1>Archives</h1>
-        </a>
-        <h2>No Ghost Just a Shell</h2>
-
-        <section id="downloads">
-          
-          <a href="https://github.com/kyle41111/kyle41111.github.io" class="btn btn-github"><span class="icon"></span>View on GitHub</a>
-        </section>
-      </div>
-    </header>
-
-    <div class="container">
-      <section id="main_content">
-        <html>
-<style>
-footer {text-align: center;}
-h2 {font-size: 12px;}
-</style>
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous" />
-    <link rel="stylesheet" type="text/css" href="stylesheet.css" />
-    <link rel="stylesheet" type="text/css" href="responsive.css" />
-    <link rel="shortcut icon" href="favicon.ico" />
-
-
-<h1><span class="fa-stack fa-lg"><i class="fa fa-square fa-stack-2x"></i><i class="fa fa-terminal fa-stack-1x fa-inverse"></i></span>  cd ../../</h1>
-
-        <div class="header-right">
-          <ul>
-            <li>    - Archived Notes, it's years of content that I no longer know how to organize. Sorry.  ~  Contains malicious script</p></li>
-            
-            EDR/SIEM for fellow stingy Red Teamers
-            
-
-            <li><a href="https://github.com/kyle41111">Repo List</a></li>
-            
-            
-          </ul>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1"
+        />
+        <style>
+            body.dragging * {
+                cursor: grabbing !important;
+            }
+            .gitbook-splashscreen {
+                position: fixed;
+                top: 0;
+                right: 0;
+                bottom: 0;
+                left: 0;
+                display: flex;
+                width: 100%;
+                height: 100%;
+            }
+            .slate-spacer {
+                height: 0;
+                color: transparent;
+                outline: none;
+                position: absolute;
+            }
+            @keyframes LoadingIndicator {
+                from {
+                    transform: rotate(0deg);
+                }
+                to {
+                    transform: rotate(360deg);
+                }
+            }
+            [data-loading-indicator='true'] {
+                animation: LoadingIndicator 0.6s linear infinite;
+            }
+        </style>
+        <title>GitBook</title>
+        <link rel="manifest" href="/public/manifest.json" />
+        <link rel="icon" sizes="512x512" href="/public/images/icon-512.png?v=10.9.253-33ae42424e7becbf19759e98a5198bf67caec1a8-4132713518" />
+        <link rel="apple-touch-icon" sizes="512x512" href="/public/images/icon-ios/icon_512x512.png?v=10.9.253-33ae42424e7becbf19759e98a5198bf67caec1a8-4132713518" />
+        <link rel="apple-touch-icon" sizes="512x512@2x" href="/public/images/icon-ios/icon_512x512@2x.png?v=10.9.253-33ae42424e7becbf19759e98a5198bf67caec1a8-4132713518" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+        <meta name="apple-mobile-web-app-title" content="GitBook" />
+        <meta name="theme-color" content="#ffffff" />
+        <meta name="description" content="GitBook">
+        <link rel="preload" as="font" type="font/woff2" href="https://app.gitbook.com/public/fonts/Inter/Inter-Bold.woff2?v=3.19" crossorigin="anonymous">
+<link rel="preload" as="font" type="font/woff2" href="https://app.gitbook.com/public/fonts/Inter/Inter-BoldItalic.woff2?v=3.19" crossorigin="anonymous">
+<link rel="preload" as="font" type="font/woff2" href="https://app.gitbook.com/public/fonts/Inter/Inter-ExtraBold.woff2?v=3.19" crossorigin="anonymous">
+<link rel="preload" as="font" type="font/woff2" href="https://app.gitbook.com/public/fonts/Inter/Inter-ExtraBoldItalic.woff2?v=3.19" crossorigin="anonymous">
+<link rel="preload" as="font" type="font/woff2" href="https://app.gitbook.com/public/fonts/Inter/Inter-Medium.woff2?v=3.19" crossorigin="anonymous">
+<link rel="preload" as="font" type="font/woff2" href="https://app.gitbook.com/public/fonts/Inter/Inter-MediumItalic.woff2?v=3.19" crossorigin="anonymous">
+<link rel="preload" as="font" type="font/woff2" href="https://app.gitbook.com/public/fonts/Inter/Inter-Regular.woff2?v=3.19" crossorigin="anonymous">
+<link rel="preload" as="font" type="font/woff2" href="https://app.gitbook.com/public/fonts/Inter/Inter-Italic.woff2?v=3.19" crossorigin="anonymous">
+        <link rel="modulepreload" href="/public/app/app-FEAKC2H6.min.js" />
+        <link rel="modulepreload" href="/public/app/chunks/chunk-GJTBAKGR.min.js" />
+        <link rel="modulepreload" href="/public/app/chunks/chunk-DV36IHB7.min.js" />
+        <link rel="modulepreload" href="/public/app/chunks/chunk-NRQDU5A6.min.js" />
+        <link rel="modulepreload" href="/public/app/chunks/chunk-KMVVAK57.min.js" />
+        <link rel="modulepreload" href="/public/app/chunks/chunk-HCFMPDL2.min.js" />
+        <link rel="modulepreload" href="/public/app/chunks/chunk-QO6LT5Y2.min.js" />
+        <link rel="modulepreload" href="/public/app/chunks/chunk-7EBWWWPL.min.js" />
+        <link rel="modulepreload" href="/public/app/chunks/chunk-3SZ5SNO4.min.js" />
+        <link rel="modulepreload" href="/public/app/chunks/chunk-M6EXQKLV.min.js" />
+        <link rel="modulepreload" href="/public/app/chunks/chunk-7Z3CR73O.min.js" />
+        <link rel="modulepreload" href="/public/app/chunks/chunk-4MYRUKCN.min.js" />
+        <link rel="modulepreload" href="/public/app/chunks/chunk-5ZWTVXZX.min.js" />
+        <link rel="modulepreload" href="/public/app/chunks/chunk-F3LGLRSV.min.js" />
+        <link rel="modulepreload" href="/public/app/chunks/chunk-4XAGFOTT.min.js" />
+        <link rel="modulepreload" href="/public/app/chunks/chunk-ONZFKK7X.min.js" />
+        <link rel="modulepreload" href="/public/app/chunks/chunk-OAKVUAEN.min.js" />
+        <style>
+            @font-face {
+            font-family: 'gitbook-content-font';
+            font-style:  normal;
+            font-weight: 700;
+            font-display: swap;
+            src: local("Inter Bold"), local("Inter-Bold"), url("https://app.gitbook.com/public/fonts/Inter/Inter-Bold.woff2?v=3.19") format("woff2"),
+                    url("https://app.gitbook.com/public/fonts/Inter/Inter-Bold.woff?v=3.19") format("woff");
+        }
+@font-face {
+            font-family: 'gitbook-content-font';
+            font-style:  italic;
+            font-weight: 700;
+            font-display: swap;
+            src: local("Inter BoldItalic"), local("Inter-BoldItalic"), url("https://app.gitbook.com/public/fonts/Inter/Inter-BoldItalic.woff2?v=3.19") format("woff2"),
+                    url("https://app.gitbook.com/public/fonts/Inter/Inter-BoldItalic.woff?v=3.19") format("woff");
+        }
+@font-face {
+            font-family: 'gitbook-content-font';
+            font-style:  normal;
+            font-weight: 800;
+            font-display: swap;
+            src: local("Inter ExtraBold"), local("Inter-ExtraBold"), url("https://app.gitbook.com/public/fonts/Inter/Inter-ExtraBold.woff2?v=3.19") format("woff2"),
+                    url("https://app.gitbook.com/public/fonts/Inter/Inter-ExtraBold.woff?v=3.19") format("woff");
+        }
+@font-face {
+            font-family: 'gitbook-content-font';
+            font-style:  italic;
+            font-weight: 800;
+            font-display: swap;
+            src: local("Inter ExtraBoldItalic"), local("Inter-ExtraBoldItalic"), url("https://app.gitbook.com/public/fonts/Inter/Inter-ExtraBoldItalic.woff2?v=3.19") format("woff2"),
+                    url("https://app.gitbook.com/public/fonts/Inter/Inter-ExtraBoldItalic.woff?v=3.19") format("woff");
+        }
+@font-face {
+            font-family: 'gitbook-content-font';
+            font-style:  normal;
+            font-weight: 500;
+            font-display: swap;
+            src: local("Inter Medium"), local("Inter-Medium"), url("https://app.gitbook.com/public/fonts/Inter/Inter-Medium.woff2?v=3.19") format("woff2"),
+                    url("https://app.gitbook.com/public/fonts/Inter/Inter-Medium.woff?v=3.19") format("woff");
+        }
+@font-face {
+            font-family: 'gitbook-content-font';
+            font-style:  italic;
+            font-weight: 500;
+            font-display: swap;
+            src: local("Inter MediumItalic"), local("Inter-MediumItalic"), url("https://app.gitbook.com/public/fonts/Inter/Inter-MediumItalic.woff2?v=3.19") format("woff2"),
+                    url("https://app.gitbook.com/public/fonts/Inter/Inter-MediumItalic.woff?v=3.19") format("woff");
+        }
+@font-face {
+            font-family: 'gitbook-content-font';
+            font-style:  normal;
+            font-weight: 400;
+            font-display: swap;
+            src: local("Inter Regular"), local("Inter-Regular"), url("https://app.gitbook.com/public/fonts/Inter/Inter-Regular.woff2?v=3.19") format("woff2"),
+                    url("https://app.gitbook.com/public/fonts/Inter/Inter-Regular.woff?v=3.19") format("woff");
+        }
+@font-face {
+            font-family: 'gitbook-content-font';
+            font-style:  italic;
+            font-weight: 400;
+            font-display: swap;
+            src: local("Inter Italic"), local("Inter-Italic"), url("https://app.gitbook.com/public/fonts/Inter/Inter-Italic.woff2?v=3.19") format("woff2"),
+                    url("https://app.gitbook.com/public/fonts/Inter/Inter-Italic.woff?v=3.19") format("woff");
+        }
+        </style>
+        <style>
+            html,
+            body {
+                -webkit-font-smoothing: antialiased;
+                text-rendering: optimizelegibility;
+                width: 100%;
+                height: 100%;
+                overflow: hidden;
+                user-select: none;
+                outline: none;
+            }
+            .gitbook-root {
+                position: fixed;
+                top: 0;
+                right: 0;
+                bottom: 0;
+                left: 0;
+                display: flex;
+                width: 100%;
+                height: 100%;
+            }        
+            [data-electron-drag="electron-drag"] { -webkit-app-region: drag; -webkit-user-select: none;  }
+            .gitbook-splashscreen {
+                background: #F5F7F9;
+                justify-content: center;
+                align-items: center;
+            }
+            .gitbook-splashscreen-logo {
+                width: 64px;
+                height: 64px;
+                animation: logoAnim 2.5s cubic-bezier(.165,.84,.44,1) both;
+                background-image: url(/public/images/logos/rounded/256x256.png?v=10.9.253-33ae42424e7becbf19759e98a5198bf67caec1a8-4132713518);
+                background-size: cover;
+                animation-iteration-count: infinite;
+                animation-direction: alternate;
+            }
+            @keyframes logoAnim {
+                0% {opacity:0}
+                1% {opacity:1}
+                to {transform:scale(.6)}
+            }
+        </style>
+        <link as="style" rel="preload" href="/public/app/app-2SDIGCUO.css" />
+                    <link rel="stylesheet" href="/public/app/app-2SDIGCUO.css" />
+        <script type="text/javascript" defer src="https://cdn.iframe.ly/embed.js" async></script>
+        <script
+            type="text/javascript"
+            defer
+            src="https://cdn.polyfill.io/v2/polyfill.js?features=Intl.~locale.en"
+            crossorigin="anonymous"
+        ></script>
+       
+    </head>
+    <body>
+        <div class="gitbook-root"></div>
+        <div class="gitbook-splashscreen">
+            <div class="gitbook-splashscreen-logo"></div>
         </div>
-</head></html>
-
-      </section>
-    </div>
-  </body>
+        <script type="module" src="/public/app/app-FEAKC2H6.min.js"></script>
+    </body>
 </html>
