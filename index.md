@@ -22,7 +22,7 @@ h2 {font-size: 12px;}
           <ul>
             <li><a href="/posts/edrSIEM.html">Notes</a><p>    - Archived Notes, it's years of content that I no longer know how to organize. Sorry.  ~  Contains malicious script</p></li>
             <li><a href="https://github.com/kyle41111/RedTeamHelp">Threat Emulation ToolKit</a><p>    - Tools I use for Threat Emulation/Red Teaming. </p></li>
-            <li><a href="https://kyle41111.gitbook.io/untitled/">EDR/SIEM for fellow stingy Red Teamers with links to my github</a><p>    -A brief writeup of Wazuh Configurations.</p></li>
+            <li><a href="/posts/StingyEDR.html">EDR/SIEM for fellow stingy Red Teamers with links to my github</a><p>    -A brief writeup of Wazuh Configurations.</p></li>
             
 
             <li><a href="https://github.com/kyle41111">Repo List</a></li>
