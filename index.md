@@ -26,6 +26,8 @@ h2 {font-size: 12px;}
             
             <li><a href="/posts/EDRSIEM_for_fellow_Stingy_Red_Teamers.pdf">Bring your Own Driver</a><p>    -Abusing Vulnerable drivers to remove kernel callbacks.</p></li>
             
+            <li><a href="/posts/Exploring_Shinra_Defenses.pdf">Exploring WDAC and Applocker</a><p>    -Enumerating defenses in XCT's vulnlab, Shinra.</p></li>
+            Exploring_Shinra_Defenses.pdf
 
             <li><a href="https://github.com/kyle41111">Repo List</a></li>
             
