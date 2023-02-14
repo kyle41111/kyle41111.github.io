@@ -28,7 +28,7 @@ h2 {font-size: 12px;}
             <li><a href="/posts/dotInvoke.pdf">Utilizing ILMerge along with D/Invoke</a><p>    -Utilizing ILMerge to achieve one clean assembly when working with D/Invoke.</p></li>
             
             <li><a href="/posts/Exploring_Shinra_Defenses.pdf">Exploring WDAC and Applocker</a><p>    -Enumerating defenses in XCT's vulnlab, Shinra.</p></li>
-            
+             <li><a href="/posts/Abusing_Discord_for_LOLAPPS.pdf">Abusing Discord</a><p>    -Quick LOLAPPS writeup on sideloading a dll with discord.</p></li>
 
             <li><a href="https://github.com/kyle41111">Repo List</a></li>
             
