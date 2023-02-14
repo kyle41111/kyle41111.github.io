@@ -16,14 +16,14 @@ h2 {font-size: 12px;}
 
 
         
-<h1><span class="fa-stack fa-lg"><i class="fa fa-square fa-stack-2x"></i><i class="fa fa-terminal fa-stack-1x fa-inverse"></i></span>  cd ../../</h1>
+<h1><span class="fa-stack fa-lg"><i class="fa fa-square fa-stack-2x"></i><i class="fa fa-terminal fa-stack-1x fa-inverse"></i></span>  cd /opt/</h1>
 
         <div class="header-right">
           <ul>
             
-            <li><a href="https://github.com/kyle41111/RedTeamHelp">Threat Emulation ToolKit</a><p>    - Tools I use for Threat Emulation/Red Teaming. </p></li>
+            <li><a href="https://github.com/kyle41111/RedTeamHelp">Threat Emulation ToolKit</a><p>    - Publicly available tools that I use for Threat Emulation/Red Teaming. </p></li>
             
-            <li><a href="/posts/EDRSIEM_for_fellow_Stingy_Red_Teamers.pdf">EDR/SIEM for fellow stingy Red Teamers</a><p>    -A brief writeup of Wazuh Configurations used to emulate an EDR. Huge shoutout spectreops and others for their reverse engineering work on sysmon and correlating kernel callbackevents</p></li>
+            <li><a href="/posts/EDRSIEM_for_fellow_Stingy_Red_Teamers.pdf">EDR/SIEM for fellow stingy Red Teamers</a><p>    -A brief writeup of Wazuh Configurations used to emulate an EDR. Huge shoutout spectreops and others for their reverse engineering work on sysmon and correlating kernel callback events</p></li>
             
             <li><a href="/posts/dotInvoke.pdf">Utilizing ILMerge along with D/Invoke</a><p>    -Utilizing ILMerge to achieve one clean assembly when working with D/Invoke.</p></li>
             
