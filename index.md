@@ -26,10 +26,11 @@ h2 {font-size: 12px;}
             <li><a href="/posts/EDRSIEM_for_fellow_Stingy_Red_Teamers.pdf">EDR/SIEM for fellow stingy Red Teamers</a><p>    -A brief writeup of Wazuh Configurations used to emulate an EDR. Huge shoutout spectreops and others for their reverse engineering work on sysmon and correlating kernel callback events</p></li>
             
             <li><a href="/posts/dotInvoke.pdf">Utilizing ILMerge along with D/Invoke</a><p>    -Utilizing ILMerge to achieve one clean assembly when working with D/Invoke.</p></li>
+             <li><a href="/posts/An_Operators_guide_to_the_galaxy_Or_how_stopped_worrying_and_learned_to_love_the_kernelfinale.pdf">Exploring and patching Kernel Callbacks</a><p>   -Exploring the kernel callback table and EDR's</p></li>
             
             <li><a href="/posts/Exploring_Shinra_Defenses.pdf">Exploring WDAC and Applocker</a><p>    -Enumerating defenses in XCT's vulnlab, Shinra.</p></li>
              <li><a href="/posts/Abusing_Discord_for_LOLAPPS.pdf">Abusing Discord</a><p>    -Quick LOLAPPS writeup on sideloading a dll with discord.</p></li>
-             <li><a href="/posts/An_Operators_guide_to_the_galaxy_Or_how_stopped_worrying_and_learned_to_love_the_kernelfinale.pdf">Exploring and patching Kernel Callbacks</a><p>   -Exploring the kernel callback table and EDR's</p></li>
+             
             <li><a href="https://github.com/kyle41111">Repo List</a></li>
             
              
